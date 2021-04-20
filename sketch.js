@@ -54,7 +54,8 @@ function keyPressed() {
 		} 
 		 if(keyCode === LEFT_ARROW)
 		 { fairy.x = fairy.x - 20; 
-		} if (keyCode === DOWN_ARROW) 
+		}
+		 if (keyCode === DOWN_ARROW) 
 		{ Matter.Body.setStatic(starBody,false); 
 		} 
 		if(keyCode === DOWN_ARROW){ 
